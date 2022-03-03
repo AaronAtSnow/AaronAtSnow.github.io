@@ -1,0 +1,30 @@
+p{
+    text-indent: 1em;
+}
+#grid, #Education {
+    display: grid; grid-template-rows: auto;   grid-template-columns: auto;
+
+}
+
+ul {  display: flex;  align-items: center;  padding: .5em 1em;  margin: .5em;
+    flex-direction: row; flex-wrap:  wrap; height: auto; }li {  margin: 0 1em;  width: 25%;}  
+#flexbox{
+    display: grid; grid-template-rows: auto;   grid-template-columns: 50% 50%;
+}
+h1{
+    text-align: center;
+}
+@media screen and (min-width: 40em) {
+    #Education{
+        display: grid; grid-template-rows: auto;   grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (min-width: 50em){
+    
+
+    #grid {
+
+        display: grid; grid-template-rows: auto;   grid-template-columns: 20% 80%;
+
+    }
+}
